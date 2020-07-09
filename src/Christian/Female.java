@@ -1,4 +1,9 @@
 package Christian;
 
-public class Female {
+public class Female extends Human{
+
+    public void getChromosomes(){
+        System.out.println("XX");
+
+    }
 }
