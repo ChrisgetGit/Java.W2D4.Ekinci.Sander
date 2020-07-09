@@ -2,10 +2,13 @@ package Christian;
 
 public abstract class Human {
 
-    private Object human;
 
     public abstract void getChromosomes ();
+    public abstract void getName();
 
-
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }
 
