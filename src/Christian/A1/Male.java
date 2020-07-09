@@ -1,4 +1,4 @@
-package Christian;
+package Christian.A1;
 
 public class Male extends Human {
     String name;
@@ -14,8 +14,6 @@ public class Male extends Human {
 
     public void getChromosomes() {
         System.out.println("XY --> male");
-
-
 
     }
 }

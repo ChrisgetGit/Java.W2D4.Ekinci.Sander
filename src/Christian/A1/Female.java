@@ -1,9 +1,8 @@
-package Christian;
+package Christian.A1;
 
-public class Female extends Human{
+public class Female extends Human {
 
     String name;
-
     Female(String name){
         this.name = name;
     }
